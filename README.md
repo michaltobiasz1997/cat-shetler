@@ -14,6 +14,28 @@ Cat Management: The API allows users to perform various operations related to ca
 ## Usage
 To use the Cat Shelter API, you can make HTTP requests to the provided endpoints.
 
+## Endpoints
+
+<ul dir="auto">
+    <li><code>GET /shelters</code> - Retrieves a list of all cat shelters</li>
+    <li><code>GET /shelters/{id}</code> - Retrieves detailed information about a specific shelter, identified by their ID.</li>
+    <li><code>POST /shelters</code> - Adds a new cat shelter. Requires employee information in the request body.</li>
+    <li><code>PUT /shelters/{id}</code> - Updates the information of a specific shelter, identified by their ID. Requires updated employee information in the request body.</li>
+    <li><code>DELETE /shelters/{id}</code> - Deletes a specific shelter record, identified by their ID.</li>
+
+    <li><code>GET /employees</code> - Retrieves a list of all employees working at the cat shelters.</li>
+    <li><code>GET /employees/{id}</code> - Retrieves detailed information about a specific employee, identified by their ID.</li>
+    <li><code>POST /employees</code> - Adds a new employee to the cat shelter. Requires employee information in the request body.</li>
+    <li><code>PUT /employees/{id}</code> - Updates the information of a specific employee, identified by their ID. Requires updated employee information in the request body.</li>
+    <li><code>DELETE /employees/{id}</code> - Deletes a specific employee record, identified by their ID.</li>
+    
+    <li><code>GET /cats</code> -  Retrieves a list of all available cats in the shelter</li>
+    <li><code>GET /cats/{id}</code> - Retrieves detailed information about a specific cat, identified by their ID.</li>
+    <li><code>POST /cats</code> - Adds a new cat to the shelter's inventory. Requires cat information in the request body.</li>
+    <li><code>PUT /cats/{id}</code> - Updates the information of a specific cat, identified by their ID. Requires updated cat information in the request body.</li>
+    <li><code>DELETE /cats/{id}</code> - Deletes a specific cat record, identified by their ID.</li>
+</ul>
+
 Testing and Performance
 Sample tests have been implemented for the API, which can be automatically executed using GitHub Actions. These tests help ensure the correctness of the API endpoints and their behavior.
 
