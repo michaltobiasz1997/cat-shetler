@@ -1,6 +1,6 @@
 ## Cat Shelter API
 
-This project is an API for a cat shelter management system, allowing users to access information about the shelter, employees, and cats. 
+This project is an API for a cat shelter management system, allowing users to access information about the shelters, employees, and cats. 
 The API provides endpoints to retrieve and manipulate data related to these three models.
 
 ## Features
