@@ -39,4 +39,4 @@ Sample tests have been implemented for the API, which can be automatically execu
 To improve performance, response caching has been implemented. This allows frequent or identical requests to be served from cache, reducing the response time and minimizing unnecessary server load.
 
 ## Documentation
-The API documentation has been generated using Scribe, providing detailed information about the available endpoints, request/response structures, and example usage. The documentation can be accessed at <i>app_url</i>/docs.
+The API documentation has been generated using <a href="https://scribe.knuckles.wtf/" target="_blank">Scribe</a>, providing detailed information about the available endpoints, request/response structures, and example usage. The documentation can be accessed at <i>app_url</i>/docs.
