@@ -15,7 +15,6 @@ Cat Management: The API allows users to perform various operations related to ca
 To use the Cat Shelter API, you can make HTTP requests to the provided endpoints.
 
 ## Endpoints
-
 <ul dir="auto">
     <li><code>GET /shelters</code> - Retrieves a list of all cat shelters</li>
     <li><code>GET /shelters/{id}</code> - Retrieves detailed information about a specific shelter, identified by their ID.</li>
@@ -34,7 +33,7 @@ To use the Cat Shelter API, you can make HTTP requests to the provided endpoints
     <li><code>DELETE /cats/{id}</code> - Deletes a specific cat record, identified by their ID.</li>
 </ul>
 
-Testing and Performance
+## Testing and Performance
 Sample tests have been implemented for the API, which can be automatically executed using GitHub Actions. These tests help ensure the correctness of the API endpoints and their behavior.
 
 To improve performance, response caching has been implemented. This allows frequent or identical requests to be served from cache, reducing the response time and minimizing unnecessary server load.
