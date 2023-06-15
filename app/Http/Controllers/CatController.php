@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Actions\Shelter\CreateCatAction;
-use App\Actions\Shelter\UpdateCatAction;
+use App\Actions\CreateCatAction;
+use App\Actions\UpdateCatAction;
 use App\Http\Requests\CreateCatRequest;
 use App\Http\Requests\UpdateCatRequest;
 use App\Http\Resources\CatResource;

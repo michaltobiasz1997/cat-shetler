@@ -2,13 +2,12 @@
 
 namespace App\Http\Controllers;
 
-use App\Actions\Shelter\CreateShelterAction;
-use App\Actions\Shelter\UpdateShelterAction;
+use App\Actions\CreateShelterAction;
+use App\Actions\UpdateShelterAction;
 use App\Http\Requests\CreateShelterRequest;
 use App\Http\Requests\UpdateShelterRequest;
 use App\Http\Resources\ShelterResource;
 use App\Models\Shelter;
-use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Http\Response as HttpResponse;
 
 class ShelterController extends Controller

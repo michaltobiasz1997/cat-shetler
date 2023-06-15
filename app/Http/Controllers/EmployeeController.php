@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Actions\Shelter\CreateEmployeeAction;
-use App\Actions\Shelter\UpdateEmployeeAction;
+use App\Actions\CreateEmployeeAction;
+use App\Actions\UpdateEmployeeAction;
 use App\Http\Requests\CreateEmployeeRequest;
 use App\Http\Requests\UpdateEmployeeRequest;
 use App\Http\Resources\EmployeeResource;

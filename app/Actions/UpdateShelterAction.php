@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Actions\Shelter;
+namespace App\Actions;
 
 use App\Models\Shelter;
 
